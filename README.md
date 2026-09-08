@@ -1,6 +1,24 @@
----
-owner-repo: sqitchers/sqitch
-desc:   Sensible database change management 
----
-
 # sqitch
+
+Sensible database change management
+
+- **Upstream**: <https://github.com/sqitchers/sqitch>
+- **Homepage**: <https://sqitch.org>
+- **Latest release**: `v1.6.1` (2026-01-06)
+- **Last commit**: 2026-07-23
+- **License**: MIT
+- **Stars**: 3160 · **Forks**: 214 · **Open issues**: 572 · **Contributors**: 60
+
+## Installation
+
+```sh
+x install sqitch
+```
+
+See <https://x-cmd.com/install/sqitch> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T11:13:00Z._
