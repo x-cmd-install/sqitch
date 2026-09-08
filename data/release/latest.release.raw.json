@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 686528,
       "digest": "sha256:c82faf99128e5b3303ee3c8e85a3190f00bc91502e3919600ddc1f495f713474",
-      "download_count": 12634,
+      "download_count": 12640,
       "created_at": "2026-01-06T18:12:54Z",
       "updated_at": "2026-01-06T18:12:55Z",
       "browser_download_url": "https://github.com/sqitchers/sqitch/releases/download/v1.6.1/App-Sqitch-v1.6.1.tar.gz"
