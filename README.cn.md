@@ -4,7 +4,7 @@
 
 Sensible database change management
 
-![sqitch](https://repo.x-cmd.io/sqitch.svg)
+![sqitch](https://repo.x-cmd.io/sqitch.svg?lang=zh)
 
 ## 安装
 
@@ -23,7 +23,12 @@ x install sqitch
 - **最新版本**: `v1.6.1` (2026-01-06)
 - **最近提交**: 2026-07-23
 - **Release 含资产**: 1 个
-- **发布时间**: 2026-01-06T18:12:54Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [App-Sqitch-v1.6.1.tar.gz](https://github.com/sqitchers/sqitch/releases/download/v1.6.1/App-Sqitch-v1.6.1.tar.gz) | 670.4 KiB | `native/unknown` |
 
 ## 流行度
 
@@ -72,4 +77,4 @@ sqitch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:15:07Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T17:04:20Z._

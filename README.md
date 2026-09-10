@@ -23,7 +23,12 @@ x install sqitch
 - **Latest**: `v1.6.1` (2026-01-06)
 - **Last commit**: 2026-07-23
 - **Assets in release**: 1
-- **Published**: 2026-01-06T18:12:54Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [App-Sqitch-v1.6.1.tar.gz](https://github.com/sqitchers/sqitch/releases/download/v1.6.1/App-Sqitch-v1.6.1.tar.gz) | 670.4 KiB | `native/unknown` |
 
 ## Popularity
 
@@ -68,8 +73,8 @@ Lowest-scoring checks:
 Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `sqitch` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/sqitch.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/sqitch.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:15:06Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T17:04:19Z._
