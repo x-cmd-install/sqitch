@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,158 · **Forks**: 214 · **Open issues**: 572 · **Contributors**: 60
+- **Stars**: 3,159 · **Forks**: 214 · **Open issues**: 572 · **Contributors**: 60
 
 ## Totals (cumulative)
 
@@ -58,30 +58,18 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 90d | 2026-06-15 | 0 | 1 | 1 | 1 | 2 | 0 |
-| last180d | 2026-03-17 | 0 | 1 | 1 | 1 | 5 | 0 |
-| 360d | 2025-09-18 | 2 | 7 | 2 | 3 | 5 | 0 |
-| last720d | 2024-09-23 | 5 | 25 | 3 | 17 | 14 | 61 |
+| 30d | 2026-08-15 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 1 | 0 | 2 | 1 |
+| 90d | 2026-06-16 | 0 | 1 | 1 | 1 | 2 | 2 |
+| last180d | 2026-03-18 | 0 | 1 | 1 | 1 | 5 | 2 |
+| 360d | 2025-09-19 | 2 | 6 | 2 | 3 | 5 | 17 |
+| last720d | 2024-09-24 | 5 | 25 | 3 | 17 | 14 | 61 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [App-Sqitch-v1.6.1.tar.gz](https://github.com/sqitchers/sqitch/releases/download/v1.6.1/App-Sqitch-v1.6.1.tar.gz) | 670.4 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **32** distros on [repology.org](https://repology.org/project/sqitch). **8** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.6.1` | ✅ latest |
-| Debian 14 | `1.6.1` | ✅ latest |
-| Debian 13 | `1.5.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.6.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.4.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -92,4 +80,4 @@ Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:23:10Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:25:55Z._
