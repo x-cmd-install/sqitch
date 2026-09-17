@@ -26,12 +26,12 @@ Total: **26,484** lines of code across **153** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.3 / 10**
+Overall score: **3.2 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
-- **Maintained** (4/10) — 2 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 4
+- **Maintained** (3/10) — 2 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,160 · **Forks**: 214 · **Open issues**: 572 · **Contributors**: 60
+- **Stars**: 3,161 · **Forks**: 214 · **Open issues**: 572 · **Contributors**: 60
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-07-18 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 90d | 2026-06-18 | 0 | 1 | 1 | 1 | 2 | 0 |
-| last180d | 2026-03-20 | 0 | 1 | 1 | 1 | 5 | 0 |
-| 360d | 2025-09-21 | 2 | 5 | 2 | 3 | 5 | 0 |
-| last720d | 2024-09-26 | 5 | 25 | 3 | 17 | 14 | 61 |
+| 30d | 2026-08-18 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-07-19 | 0 | 0 | 1 | 0 | 2 | 1 |
+| 90d | 2026-06-19 | 0 | 1 | 1 | 1 | 2 | 2 |
+| last180d | 2026-03-21 | 0 | 1 | 1 | 1 | 5 | 2 |
+| 360d | 2025-09-22 | 2 | 5 | 2 | 3 | 5 | 17 |
+| last720d | 2024-09-27 | 5 | 25 | 3 | 17 | 14 | 61 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:25:24Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:31:03Z._
