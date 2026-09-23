@@ -4,7 +4,7 @@
 
 Sensible database change management
 
-[![x-cmd/install — sqitch Code Quality Monitoring Repo Card](https://repo.x-cmd.io/sqitch.svg?lang=zh)](https://x-cmd.com/install/sqitch)
+[![x-cmd/install — sqitch Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/sqitch.svg?lang=zh)](https://x-cmd.com/install/sqitch)
 
 ## 安装
 
@@ -30,8 +30,8 @@ x install sqitch
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Maintained** (3/10) — 2 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 3
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
@@ -48,7 +48,7 @@ x install sqitch
 
 ## 流行度
 
-- **Star**: 3,163 · **Fork**: 214 · **开放 issue**: 573 · **贡献者**: 60
+- **Star**: 3,165 · **Fork**: 214 · **开放 issue**: 573 · **贡献者**: 60
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install sqitch
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 90d | 2026-06-24 | 0 | 1 | 1 | 1 | 3 | 2 |
-| last180d | 2026-03-26 | 0 | 1 | 1 | 1 | 6 | 2 |
-| 360d | 2025-09-27 | 2 | 3 | 2 | 3 | 6 | 12 |
-| last720d | 2024-10-02 | 5 | 25 | 3 | 17 | 15 | 61 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 1 | 0 | 3 | 0 |
+| 90d | 2026-06-25 | 0 | 1 | 1 | 1 | 3 | 2 |
+| last180d | 2026-03-27 | 0 | 1 | 1 | 1 | 6 | 2 |
+| 360d | 2025-09-28 | 2 | 2 | 2 | 3 | 6 | 12 |
+| last720d | 2024-10-03 | 5 | 25 | 3 | 17 | 15 | 61 |
 
 ## Release 资产
 
@@ -80,4 +80,4 @@ sqitch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:31:54Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:20:04Z._

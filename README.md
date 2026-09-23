@@ -4,7 +4,7 @@
 
 Sensible database change management
 
-[![x-cmd/install — sqitch Code Quality Monitoring Repo Card](https://repo.x-cmd.io/sqitch.svg)](https://x-cmd.com/install/sqitch)
+[![x-cmd/install — sqitch Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/sqitch.svg)](https://x-cmd.com/install/sqitch)
 
 ## Install
 
@@ -30,8 +30,8 @@ Overall score: **3.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Maintained** (3/10) — 2 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 3
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,163 · **Forks**: 214 · **Open issues**: 573 · **Contributors**: 60
+- **Stars**: 3,165 · **Forks**: 214 · **Open issues**: 573 · **Contributors**: 60
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 90d | 2026-06-24 | 0 | 1 | 1 | 1 | 3 | 2 |
-| last180d | 2026-03-26 | 0 | 1 | 1 | 1 | 6 | 2 |
-| 360d | 2025-09-27 | 2 | 3 | 2 | 3 | 6 | 12 |
-| last720d | 2024-10-02 | 5 | 25 | 3 | 17 | 15 | 61 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 1 | 0 | 3 | 0 |
+| 90d | 2026-06-25 | 0 | 1 | 1 | 1 | 3 | 2 |
+| last180d | 2026-03-27 | 0 | 1 | 1 | 1 | 6 | 2 |
+| 360d | 2025-09-28 | 2 | 2 | 2 | 3 | 6 | 12 |
+| last720d | 2024-10-03 | 5 | 25 | 3 | 17 | 15 | 61 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:31:53Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:20:04Z._
