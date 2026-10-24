@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,173 · **Forks**: 215 · **Open issues**: 573 · **Contributors**: 60
+- **Stars**: 3,174 · **Forks**: 215 · **Open issues**: 573 · **Contributors**: 60
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 1 | 0 | 0 | 0 | 2 |
-| last60d | 2026-08-24 | 0 | 1 | 0 | 1 | 1 | 2 |
-| 90d | 2026-07-25 | 0 | 2 | 0 | 1 | 2 | 2 |
-| last180d | 2026-04-26 | 0 | 3 | 0 | 2 | 5 | 4 |
-| 360d | 2025-10-28 | 1 | 3 | 1 | 4 | 5 | 8 |
-| last720d | 2024-11-02 | 5 | 27 | 2 | 18 | 13 | 63 |
+| 30d | 2026-09-24 | 0 | 1 | 0 | 0 | 0 | 2 |
+| last60d | 2026-08-25 | 0 | 1 | 0 | 1 | 1 | 2 |
+| 90d | 2026-07-26 | 0 | 2 | 0 | 1 | 2 | 2 |
+| last180d | 2026-04-27 | 0 | 3 | 0 | 2 | 5 | 4 |
+| 360d | 2025-10-29 | 1 | 3 | 1 | 4 | 5 | 8 |
+| last720d | 2024-11-03 | 5 | 27 | 2 | 18 | 13 | 63 |
 
 ## Release assets
 
@@ -92,4 +92,4 @@ Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:06:56Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:55:21Z._
