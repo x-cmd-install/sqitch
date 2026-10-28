@@ -30,8 +30,8 @@ x install sqitch
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 4/23 approved changesets -- score normalized to 1
 - **Maintained** (4/10) — 2 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 4
+- **Code-Review** (1/10) — Found 4/23 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
@@ -48,7 +48,7 @@ x install sqitch
 
 ## 流行度
 
-- **Star**: 3,178 · **Fork**: 215 · **开放 issue**: 573 · **贡献者**: 60
+- **Star**: 3,179 · **Fork**: 215 · **开放 issue**: 573 · **贡献者**: 60
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install sqitch
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 0 | 1 | 0 | 1 | 0 | 2 |
-| 90d | 2026-07-29 | 0 | 2 | 0 | 1 | 2 | 2 |
-| last180d | 2026-04-30 | 0 | 3 | 0 | 2 | 5 | 4 |
-| 360d | 2025-11-01 | 1 | 3 | 1 | 4 | 5 | 8 |
-| last720d | 2024-11-06 | 5 | 27 | 2 | 18 | 13 | 63 |
+| 30d | 2026-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-29 | 0 | 1 | 0 | 1 | 0 | 2 |
+| 90d | 2026-07-30 | 0 | 2 | 0 | 1 | 1 | 2 |
+| last180d | 2026-05-01 | 0 | 3 | 0 | 2 | 5 | 4 |
+| 360d | 2025-11-02 | 1 | 3 | 1 | 4 | 5 | 8 |
+| last720d | 2024-11-07 | 5 | 27 | 2 | 17 | 13 | 63 |
 
 ## Release 资产
 
@@ -92,4 +92,4 @@ sqitch 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:30:16Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T06:04:43Z._
