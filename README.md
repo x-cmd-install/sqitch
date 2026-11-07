@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-07 | 0 | 1 | 0 | 1 | 1 | 2 |
-| 90d | 2026-08-08 | 0 | 2 | 0 | 1 | 2 | 2 |
-| last180d | 2026-05-10 | 0 | 3 | 0 | 2 | 5 | 4 |
-| 360d | 2025-11-11 | 1 | 3 | 0 | 3 | 6 | 8 |
-| last720d | 2024-11-16 | 5 | 27 | 2 | 17 | 14 | 63 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-08 | 0 | 1 | 0 | 1 | 1 | 2 |
+| 90d | 2026-08-09 | 0 | 2 | 0 | 1 | 2 | 2 |
+| last180d | 2026-05-11 | 0 | 3 | 0 | 2 | 5 | 4 |
+| 360d | 2025-11-12 | 1 | 3 | 0 | 3 | 6 | 8 |
+| last720d | 2024-11-17 | 5 | 27 | 2 | 17 | 14 | 63 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **30** distros on [repology.org](https://repology.org/project/sqitch). **8** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
+Reported by **31** distros on [repology.org](https://repology.org/project/sqitch). **9** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for sqitch lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:09:36Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:22:05Z._
