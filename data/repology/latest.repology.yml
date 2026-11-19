@@ -1,3 +1,31 @@
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: "0.9999"
+  origversion: 0.9999-2
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - database
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.1.0000
+  origversion: 1.1.0000-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - database
 - repo: pureos_landing
   subrepo: landing/main
   srcname: sqitch
@@ -54,146 +82,6 @@
     - zeha@debian.org
   categories:
     - misc
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: "0.9993"
-  origversion: 0.9993-2
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: "0.9996"
-  origversion: 0.9996-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: "0.9999"
-  origversion: 0.9999-2
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.4.1
-  origversion: 1.4.1-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: newest
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.6.1
-  origversion: 1.6.1-2
-  status: newest
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.6.1
-  origversion: 1.6.1-2
-  status: newest
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - universe/misc
 - repo: aur
   srcname: sqitch
   binname: sqitch
@@ -394,8 +282,36 @@
     - zeha@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: "0.9993"
+  origversion: 0.9993-2
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: "0.9996"
+  origversion: 0.9996-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: sqitch
   binnames:
     - sqitch
@@ -407,18 +323,102 @@
     - pkg-perl-maintainers@lists.alioth.debian.org
     - zeha@debian.org
   categories:
-    - database
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: sqitch
   binnames:
     - sqitch
   visiblename: sqitch
-  version: 1.1.0000
-  origversion: 1.1.0000-1
+  version: 1.2.1
+  origversion: 1.2.1-1
   status: outdated
   maintainers:
     - pkg-perl-maintainers@lists.alioth.debian.org
     - zeha@debian.org
   categories:
-    - database
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.4.1
+  origversion: 1.4.1-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: newest
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.6.1
+  origversion: 1.6.1-2
+  status: newest
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.6.1
+  origversion: 1.6.1-2
+  status: newest
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - universe/misc
