@@ -1,5 +1,19 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.1.0000
+  origversion: 1.1.0000-1
+  status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: sqitch
   binnames:
     - sqitch
@@ -108,34 +122,6 @@
     - zeha@debian.org
   categories:
     - database
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.1.0000
-  origversion: 1.1.0000-1
-  status: outdated
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: sqitch
-  binnames:
-    - sqitch
-  visiblename: sqitch
-  version: 1.6.1
-  origversion: 1.6.1-2
-  status: newest
-  maintainers:
-    - pkg-perl-maintainers@lists.alioth.debian.org
-    - zeha@debian.org
-  categories:
-    - misc
 - repo: gnuguix
   srcname: sqitch
   binname: sqitch
@@ -173,7 +159,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: sqitch
   binnames:
     - sqitch
@@ -187,7 +173,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: sqitch
   binnames:
     - sqitch
@@ -265,6 +251,20 @@
   version: 1.5.2
   origversion: 1.5.2-1
   status: outdated
+  maintainers:
+    - pkg-perl-maintainers@lists.alioth.debian.org
+    - zeha@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: sqitch
+  binnames:
+    - sqitch
+  visiblename: sqitch
+  version: 1.6.1
+  origversion: 1.6.1-2
+  status: newest
   maintainers:
     - pkg-perl-maintainers@lists.alioth.debian.org
     - zeha@debian.org
@@ -396,8 +396,8 @@
     - zeha@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
   srcname: sqitch
   binnames:
     - sqitch
